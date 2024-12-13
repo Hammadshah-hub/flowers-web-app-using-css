@@ -1,4 +1,52 @@
+@font-face {
+    font-family: "old school";
+    src: url("/fonts/Oldschool\ Grotesk\ Medium.otf");
+}
 
+@font-face {
+    font-family: "old school lite";
+    src: url("/fonts/Oldschool\ Grotesk\ ExtraLight.otf");
+}
+
+@font-face {
+    font-family: "old school x-small";
+    src: url("/fonts/Oldschool\ Grotesk\ Light.otf");
+}
+
+@font-face {
+    font-family: "Nib lite";
+    src: url("/fonts/OldschoolGroteskGX.ttf");
+}
+
+@font-face {
+    font-family: "old school small";
+    src: url("/fonts/Oldschool\ Grotesk\ Light.otf");
+}
+
+@font-face {
+    font-family: "old school heavy";
+    src: url("/fonts/Oldschool\ Grotesk\ Bold.otf");
+}
+
+@font-face {
+    font-family: "old school large";
+    src: url("/fonts/Oldschool\ Grotesk\ Bold.otf");
+}
+
+@font-face {
+    font-family: "old school small lite";
+    src: url("/fonts/Oldschool\ Grotesk\ Light.otf");
+}
+
+@font-face {
+    font-family: "old school midium extra";
+    src: url("/fonts/Oldschool\ Grotesk\ Medium.otf");
+}
+
+@font-face {
+    font-family: "nib";
+    src: url("/fonts/NibPro-Light.ttf");
+}
 
 body {
     margin: 0;
@@ -593,7 +641,7 @@ input::placeholder {
 
 .fifth-section {
     max-width: 100%;
-    margin-bottom: 48px;
+    margin-bottom: 169px;
     padding: 0 48px;
 }
 
@@ -769,7 +817,7 @@ input::placeholder {
 .text-button {
     color: white;
     background-color: black;
-    padding: 18px 64px;
+        padding: 15px 24px;
     font-family: "old school midium extra";
     font-weight: 500;
     border: 1px solid black;
@@ -801,8 +849,49 @@ input::placeholder {
     height: 600px;
     vertical-align: middle;
     min-height: 380px;
+
+}
+.midsec{
+        display: flex;
+            gap: 266PX;
+            background-color: #bed8cf;
+            margin-bottom: 75px;
+        }
+.midimg{
+    width: 48%;
+}
+.for-new-boxes1 {
+    top: 176px;
+    margin-right: 3rem;
+    margin-left: -8rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+.for-new-boxes1 h1{
+        font-size: 39.0652px;
+            letter-spacing: 0;
+            line-height: 1.5;
+            margin: 0;
+            color: #000000;
+            font-family: "nib";
+            font-weight: 400;
+            font-style: italic;
 }
 
+.for-new-boxes1 h2 {
+    font-family: "old school lite";
+    font-weight: 500;
+    font-size: 14.2222px;
+    padding: 8px 0px;
+    margin: 0px 92px;
+    letter-spacing: .65px;
+    line-height: 1.5;
+    color: #000000;
+}
 .for-button:hover {
     background-color: #BFE1A2;
     cursor: pointer;
@@ -1230,30 +1319,12 @@ input::placeholder {
     color: #504b4b;
 }
 
-.last-section-start h3 {
-    line-height: 1.5;
-    letter-spacing: .25px;
-    font-weight: 100;
-    font-size: 31px;
-    font-family: "old school x-small";
-    margin: 0;
-    color: #000000;
-}
 
 .last-section-start h2 {
-    /* margin: 14.2222px 0px;
-font-size: 14.2222px;
-color: #000000;
-
-font-family: "old school lite"; */
     font-family: "old school x-small";
-    font-weight: 100;
-    font-size: 13.2222px;
-    color: #1e1d1d;
-    white-space: pre-wrap;
-    line-height: 1.5;
-    letter-spacing: .50px;
-    margin: 1rem 0;
+        font-weight: 100;
+        color: #1e1d1d;
+        margin: 1rem 0;
     font-size: 0.90rem;
 }
 
@@ -1493,4 +1564,1226 @@ footer {
     bottom: 89%;
     opacity: 1;
 
+}
+
+.layer1 {
+    background: transparent;
+    width: 82%;
+    height: 100%;
+    margin-top: 3px;
+    position: absolute;
+    top: -3px;
+    left: 30px;
+    transition: 1.5s;
+    border-radius: 10px;
+}
+
+.layer1:hover {
+    background-color: rgb(243, 238, 234, 0.7);
+
+}
+
+.layer1 h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    top: 118px;
+    left: 77%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer1:hover h3 {
+    bottom: 89%;
+    opacity: 1;
+
+}
+
+/* last section*/
+.last-section-first {
+    max-width: 1920px;
+}
+
+.last-section-start h1 {
+    margin: 0;
+    font-size: 39.0625px;
+    height: 58.59px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-family: "old school x-small";
+    font-weight: 100;
+}
+
+.last-section-start h5 {
+    margin: 14.2222px 0px;
+    font-family: "old school x-small";
+    font-weight: 100;
+    font-size: 13.2222px;
+    color: #1e1d1d;
+    line-height: 1.5;
+    letter-spacing: .15px;
+}
+
+.last-section-start h4 {
+    font-size: 31.25px;
+    height: 46.88px;
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    font-weight: 100;
+    font-family: "old school x-small";
+}
+
+.last-section-start p {
+    margin: 14.2222px 0px;
+    letter-spacing: 0.5px;
+    font-family: "old school x-small";
+    font-weight: 100;
+    font-size: 13.2222px;
+    color: #1e1d1d;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    font-weight: 500;
+    font-family: "old school small";
+    color: #504b4b;
+}
+
+.last-section-start h3 {
+    line-height: 1.5;
+    letter-spacing: .25px;
+    font-weight: 100;
+    font-size: 31px;
+    font-family: "old school x-small";
+    margin: 0;
+    color: #000000;
+}
+
+.last-section-start h2 {
+    font-family: "old school x-small";
+    font-weight: 100;
+    font-size: 13.2222px;
+    color: #1e1d1d;
+
+    line-height: 1.5;
+    letter-spacing: .50px;
+    margin: 1rem 0;
+    font-size: 0.90rem;
+}
+
+.last-section-start h6 {
+    font-size: 14.2222px;
+    margin: 14.2222px 0px;
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-family: "old school x-small";
+    font-weight: 100;
+    font-size: 13.2222px;
+    color: #1e1d1d;
+}
+
+.for-order-flowers h2 {
+    font-size: 31.25px;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    font-family: "old school small";
+    font-weight: 100;
+    margin: 0;
+}
+
+.for-order-flowers h4 {
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-size: 14.2222px;
+    height: auto;
+    font-weight: 550;
+    font-family: "old school x-small";
+    font-weight: 100;
+    font-size: 13.2222px;
+    color: #1e1d1d;
+    margin: 14.2222px 0px;
+}
+
+#for-delivery h3 {
+    margin: 0px 0px;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    font-weight: 550;
+    font-family: "old school x-small";
+    font-size: 31.25px;
+}
+
+
+
+.last-section-first {
+    max-width: 1920px;
+}
+.last-section-start{
+    padding: 12px 27px
+}
+.footer-for-row {
+    padding: 16px 0px 0px;
+    margin: 24px 0px 0px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.footer-forst h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Old school";
+    margin: 0px 0px 16px;
+}
+
+.footer-forst h2 {
+    margin: 0px 0px 16px;
+    font-size: 15.50px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.25px;
+    font-family: "Old school x-small";
+}
+
+.footer-forst h3 {
+    margin: 0px 0px 8px;
+    font-size: 15.50px;
+    letter-spacing: .95px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Old school x-small";
+}
+
+.footer-forst h4 {
+    margin: 0px 0px 8px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-family: "Old school small";
+}
+
+.footer-forst h5 {
+    margin: 0px 0px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: .59px;
+    font-family: "Old school small";
+}
+.for-center {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-first {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 16.66666666667%;
+    max-width: 152px;
+}
+
+.first-body {
+    margin: 16px 0px 0px;
+}
+
+.first-body h1 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+    font-size: 14.2222px;
+    font-family: "old school small";
+    font-weight: 700;
+    letter-spacing: .15;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.first-body h2:hover {
+    text-decoration: underline;
+}
+
+.first-body h2 {
+    margin-top: 0;
+    margin-left: 0;
+    cursor: pointer;
+    margin-right: 0;
+    margin-bottom: 8px;
+    font-size: 13.2222px;
+    font-family: "old school small";
+    font-weight: 400;
+    letter-spacing: .15px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.first-body h3:hover {
+    text-decoration: underline;
+}
+
+.first-body h3 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-size: 13.2222px;
+    font-family: "old school small";
+    font-weight: 400;
+    letter-spacing: .15px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.second-body {
+    margin: 16px 0px 0px;
+}
+
+.second-body h2 {
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: "old school small";
+    margin-right: 0;
+    font-size: 14.2222px;
+    color: #000000;
+}
+
+.second-body h3:hover {
+    text-decoration: underline;
+}
+
+#gladlyChat_container .ChatIcon__chatIcon___su-eH {
+    cursor: pointer !important;
+    height: 30px !important;
+    stroke: #C1e39e !important;
+}
+
+.chatIcon_customStrokeColors {
+    cursor: pointer !important;
+    stroke: #C1e39e;
+}
+
+.second-body h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.second-body h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.second-body h6:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.second-body h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.third-body h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.third-body h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.third-body h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.third-body h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.third-body h6:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fifth-body h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fifth-body h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fifth-body h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fifth-body h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fifth-body h6:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fifth-body h1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.seventh-body h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.seventh-body h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.seventh-body h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.seventh-body h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.seventh-body h6:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.eleven-body h1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-forst h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-forst h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-forst h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.for-logos:hover {
+    cursor: pointer;
+}
+
+.end-first h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.end-first h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.end-first h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.end-first h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.end-first h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.second-body h3 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    cursor: pointer;
+    letter-spacing: 0.15px;
+    color: #000000;
+    font-family: "old school small";
+    font-weight: 400;
+}
+
+.second-body h4 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    color: #000000;
+    letter-spacing: .95px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.second-body h5 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: .95px;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.second-body h6 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: .95px;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.second-body h1 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: 1.0px;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.third-body {
+    margin: 16px 0px 0px;
+}
+
+.third-body h1 {
+    color: #000000;
+    margin: 0px 0px 16px;
+    line-height: 1.5;
+    letter-spacing: .95;
+    font-weight: 600;
+    font-family: "old school small";
+    font-weight: 900;
+    font-size: 14.2222px;
+}
+
+.third-body h2 {
+    font-size: 14.2222px;
+    margin: 0px 0px 8px;
+    color: #000000;
+    letter-spacing: .65px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.third-body h3 {
+    font-size: 14.2222px;
+    margin: 0px 0px 8px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: .65px;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.third-body h4 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: .65px;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.third-body h5 {
+    margin: 0px 0px 8px;
+    color: #000000;
+    font-size: 14.2222px;
+    font-family: "old school small";
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .65px;
+}
+
+.third-body h6 {
+    color: #000000;
+    font-size: 14.2222px;
+    letter-spacing: .75px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "old school small";
+    margin: 0px 0px 8px;
+}
+
+.forth-body h2 {
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: .65px;
+    font-family: "old school small";
+    font-weight: 400;
+    font-size: 14.2222px;
+    margin: 0px 0px 8px;
+}
+
+.fifth-body {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 16.6666666667%;
+    max-width: 11.02%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.col-3 {
+    margin: 16px 0px 0px;
+}
+
+.col-3 h1 {
+    margin: 0px 0px 16px;
+    font-size: 14.2222px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: "old school x-small";
+    letter-spacing: .55px;
+}
+
+.col-3 h2 {
+    font-size: 14.2222px;
+    margin: 0px 0px 8px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    font-family: "old school large";
+}
+
+.col-3 h3 {
+    margin: 0px 0px 8px;
+    color: #000000;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    line-height: 1.5;
+    letter-spacing: .60px;
+}
+
+.col-3 h4 {
+    color: #000000;
+    font-size: 14.2222px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 14.2222px;
+    letter-spacing: .60px;
+    font-family: "old school small";
+}
+
+.col-3 h5 {
+    margin: 0px 0px 8px;
+    color: #000000;
+    line-height: 1.5;
+    font-size: 13.2222px;
+    letter-spacing: .60px;
+    font-weight: 400;
+    font-family: "old school small";
+}
+
+.col-3 h6 {
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-weight: 400;
+    font-family: "old school small";
+    font-size: 14.2222px;
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.col-4 h5 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: .15px;
+
+}
+
+.col-4 h6 {
+    margin: 0px 0px 8px;
+    font-size: 14.2222px;
+    font-family: "old school small";
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: .60px;
+}
+
+.sixth-body h1 {
+    color: #000000;
+    line-height: 1.5;
+    margin: 0px 0px 8px;
+    letter-spacing: .15px;
+    font-size: 14.2222px;
+    font-family: "old school";
+}
+
+.sixth-body h2 {
+    color: #000000;
+    font-family: "old school small";
+    font-weight: 400;
+    font-size: 14.2222px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    letter-spacing: .15px;
+}
+
+.sixth-body h3 {
+    color: #000000;
+    font-family: "old school small";
+    font-weight: 400;
+    font-size: 13.2222px;
+    line-height: 1.5;
+    letter-spacing: .65px;
+    margin: 0px 0px 8px;
+}
+
+.sixth-body h4 {
+    font-size: 13.2222px;
+    letter-spacing: .15px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.sixth-body h5 {
+    font-size: 14.252222px;
+    font-family: "old school small";
+    font-weight: 400;
+    letter-spacing: .60px;
+    line-height: 1.5;
+    margin: 0px 0px 8px;
+    color: #000000;
+}
+
+.col-7 {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 16.6666666667%;
+    max-width: 11.02%;
+    padding-right: 2rem;
+}
+
+.seventh-body {
+    margin: 16px 0px 0px;
+}
+
+.seventh-body h1 {
+    margin: 0px 0px 16px;
+    font-family: "old school x-small", sans-serif;
+    font-weight: 950;
+    margin-bottom: 1rem;
+    font-size: 14.2222px;
+    line-height: 1.5;
+    letter-spacing: .85px;
+}
+
+.seventh-body h2 {
+    letter-spacing: .95px;
+    font-size: 14.2222px;
+    line-height: 1.5;
+    font-family: "old school", sans-serif;
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.seventh-body h3 {
+    letter-spacing: .05px;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    line-height: 1.5;
+    margin: 0px 0px 8px;
+    color: #000000;
+}
+
+.seventh-body h4 {
+    letter-spacing: .95px;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    line-height: 1.5;
+    margin: 0px 0px 8px;
+    color: #000000;
+}
+
+.seventh-body h5 {
+    letter-spacing: .5px;
+    font-size: 14.2222px;
+    font-weight: 300;
+    font-family: "old school small";
+    line-height: 1.5;
+    margin: 0px 0px 8px;
+    color: #000000;
+}
+
+.seventh-body h6 {
+    letter-spacing: .95px;
+    font-size: 14.2222px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: "old school small";
+    margin: 0px 0px 8px;
+    color: #000000;
+}
+
+.eight-body h4 {
+    line-height: 1.5;
+    letter-spacing: .95px;
+    font-size: 14.2222px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "old school", sans-serif;
+    margin: 0px 0px 8px;
+}
+
+.eight-body h5 {
+    line-height: 1.5;
+    letter-spacing: .95px;
+    font-size: 14.2222px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "old school small";
+    margin: 0px 0px 8px;
+}
+
+.eight-body h6 {
+    line-height: 1.5;
+    letter-spacing: .95px;
+    font-size: 14.2222px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "old school small";
+    margin: 0px 0px 8px;
+}
+
+.nine-body {
+    margin: 16px 0px 0px;
+}
+
+.nine-body h1 {
+    line-height: 1.5;
+    letter-spacing: .85px;
+    font-size: 14.2222px;
+    font-weight: 950;
+    font-family: "old school x-small", sans-serif;
+    color: #000000;
+    margin: 0px 0px 16px;
+}
+
+.nine-body h2 {
+    line-height: 1.5;
+    letter-spacing: .0px;
+    font-size: 14.2222px;
+    font-family: "old school", sans-serif;
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.nine-body h3 {
+    line-height: 1.5;
+    letter-spacing: 1.15px;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.nine-body h4 {
+    line-height: 1.5;
+    letter-spacing: 1.15px;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.nine-body h5 {
+    line-height: 1.5;
+    letter-spacing: 1.15px;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.nine-body h6 {
+    line-height: 1.5;
+    letter-spacing: 1.15px;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    color: #000000;
+    margin: 0px 0px 8px;
+}
+
+.eleven-body h1 {
+    line-height: 1.5;
+    letter-spacing: 1.15px;
+    font-size: 14.2222px;
+    font-weight: 400;
+    font-family: "old school small";
+    color: black;
+    margin: 0px 0px 8px;
+}
+
+.ten {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0;
+    margin-top: 19px;
+    padding-bottom: 0;
+    flex: 0 0 30.3333333333%;
+    /* max-width: 28.4%; */
+}
+
+.thirteen h1 {
+    margin: 0px 0px 16px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14.2222px;
+    letter-spacing: .25px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-family: "old school", sans-serif;
+}
+
+.email {
+    margin: 0px -4px 8px 0px;
+    padding: 0px 0px 8px;
+    border: 0px solid white;
+    width: -webkit-fill-available;
+}
+
+.sign-up:hover {
+    background-color: #c1e39e;
+    border-top-left-radius: 0px;
+    border: 1px solid black;
+    font-size: 11.8px;
+    padding: 15.9 24px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 4px;
+}
+
+.email input {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid #c5bbbb;
+}
+
+.email input ::placeholder {
+    border: 0px solid rgb(216, 216, 216);
+}
+
+.for-place::placeholder {
+    color: #FFFFFF;
+}
+
+.footer-forst h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Old school";
+    margin: 0px 0px 16px;
+}
+
+.footer-forst h2 {
+    margin: 0px 0px 16px;
+    font-size: 15.50px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.25px;
+    font-family: "Old school x-small";
+}
+
+.footer-forst h3 {
+    margin: 0px 0px 8px;
+    font-size: 15.50px;
+    letter-spacing: .95px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Old school x-small";
+}
+
+.footer-forst h4 {
+    margin: 0px 0px 8px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .15px;
+    font-family: "Old school small";
+}
+
+.footer-forst h5 {
+    margin: 0px 0px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: .59px;
+    font-family: "Old school small";
+}
+
+.for-logos {
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+}
+
+.for-logos img {
+    width: 35px;
+    height: 35px;
+}
+
+.internal-logos {
+    width: 55px;
+    height: 38px;
+}
+
+.end {
+    padding: 16px 0px 0px;
+    margin: 48px 0px 0px;
+    /* border: 1px solid green; */
+}
+
+.end-first {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.end-first h1 {
+    padding: 0px 4px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    font-weight: 100;
+    font-family: "old school small";
+    color: #000;
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: .5rem;
+}
+
+.end-first h2 {
+    padding: 0px 4px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    font-weight: 100;
+    letter-spacing: .20px;
+    font-family: "old school small";
+    color: #000000;
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: .5rem;
+}
+
+.end-first h3 {
+    padding: 0px 4px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    font-weight: 100;
+    letter-spacing: .25px;
+    font-family: "old school small";
+    color: #000;
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: .5rem;
+}
+
+.end-first h4 {
+    padding: 0px 4px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    font-weight: 100;
+    letter-spacing: .15px;
+    font-family: "old school small";
+    color: #000000;
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: .5rem;
+}
+
+.end-first h5 {
+    padding: 0px 4px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    font-weight: 100;
+    letter-spacing: .15px;
+    font-family: "old school small";
+    color: #000;
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: .5rem;
+}
+
+.end-first h6 {
+    padding: 0px 4px;
+    margin: 0px 0px 8px;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    font-weight: 100;
+    font-family: "old school small";
+    color: #000000;
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: .5rem;
+}
+
+.third-last-first {
+    display: flex;
+    margin-bottom: 3rem;
+    background-color: #bed8cf;
+    width: max-content;
+}
+
+#third-last {
+    display: flex;
+    justify-content: center;
+}
+
+.hole-image {
+    display: flex;
+    max-width: 1900px;
+    justify-content: center;
+}
+
+.second-part-first {
+    width: calc(100% -6rem);
+    z-index: 2;
+    padding: 1.5rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.second-part-first h1 {
+    margin: 0;
+    font-size: 39px;
+    line-height: 59px;
+    color: #000;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "nib";
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.second-part-first h2 {
+    /* margin: 0;
+    padding: 8px 0px;
+    font-size: 14.2222px;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: .15px;
+    font-family:"old school small";
+    text-align: center; */
+    font-family: "old school lite";
+    font-weight: 500;
+    font-size: 14.8px;
+    padding: 8px 0px;
+    margin: 0px 0px;
+    letter-spacing: .55px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.for-circile {
+    padding: 0;
+    margin-top: .5rem;
+    text-align: center;
+    background-color: #000;
+    width: 141.22px;
+    display: flex;
+    border-radius: 26px;
+    height: 50px;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.for-circile:hover {
+    background-color: #BFE1A2;
+    border: 1px solid black;
+}
+
+.second-part-first {
+    cursor: pointer;
+}
+
+.for-circile h6 {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.55px;
+    margin: 0;
+    cursor: pointer;
+    font-family: "old school midium extra";
+    font-size: 12.64px;
+    color: #FFFFFF;
+}
+
+#last-section {
+    padding: 0 40px;
 }
